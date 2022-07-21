@@ -1,0 +1,138 @@
+/* upcoming button */
+body {
+    margin: 0%;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+}
+
+#upcoming-match {
+    background: #DD0000;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.flex-div {
+    display: flex;
+}
+
+.country-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    background-color: rgb(240, 235, 235);
+}
+
+.country-image {
+    display: flex;
+}
+
+.france {
+    margin-right: 20.92px;
+}
+
+.germany {
+    margin-left: 20.92px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+
+@media only screen and (max-width:688px) {
+
+    main {
+        text-align: center;
+    }
+
+    .banner-container {
+        display: grid;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .heading-text {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        text-align: center;
+        width: 220px;
+        height: 155px;
+        margin-top: 5px;
+    }
+
+    .head {
+        text-align: start;
+    }
+
+    p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        width: 258px;
+        height: 48px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 80px;
+    }
+
+    .transfer-button {
+        margin-top: 10px;
+    }
+
+    .image-container img {
+        height: 500px;
+        margin-left: 250px;
+    }
+
+    .live-site {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .rectangle {
+        margin-bottom: 10px;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: none;
+    }
+
+    .card {
+        padding-right: 40px;
+        padding-left: 50px;
+    }
+
+    footer {
+        width: 10px;
+        height: 2847px;
+    }
+
+    hr {
+        width: 100px;
+    }
+
+    .footer-details {
+        display: block;
+
+    }
+
+    .icon {
+        display: contents;
+        display: flex;
+    }
+}
